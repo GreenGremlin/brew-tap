@@ -6,6 +6,6 @@ class Sub < Formula
 
   def install
     bin.install "bin/sub"
-    bash_completion.install "completions/sub.bash" => "brew-cask"
+    bash_completion.install "completions/sub.bash" => "sub"
   end
 end
