@@ -3,7 +3,7 @@ class Sub < Formula
   homepage ""
   url "https://github.com/GreenGremlin/sub/archive/v0.1.10.tar.gz"
   head "https://github.com/GreenGremlin/sub.git"
-  sha256 "1d1acb1c2ac34370292cd2e682b035271744f0bed83fcc5a7b142bb116bdd8ad"
+  sha256 "bc9222bea53e777651b486a7131b4a81d0a70dff8a4cc7b5c6185f055a75d595"
 
   def install
     bin.install "bin/sub" => "sub"
