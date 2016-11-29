@@ -3,7 +3,7 @@ class SubEs < Formula
   homepage ""
   url "https://github.com/GreenGremlin/es/archive/v0.1.0.tar.gz"
   head "https://github.com/GreenGremlin/es.git"
-  # sha256 "ac387e05074e93095bb61ada9adf0f3d05d748e5893c93e4d88e2766a8f262dc"
+  sha256 "9f94c9a851ce88932aa9b51f3f58a204b28ae3e3df34fbe701108ddd44c103a0"
   depends_on "greengremlin/cask/sub"
 
   def install
