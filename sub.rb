@@ -2,7 +2,7 @@ class Sub < Formula
   desc ""
   homepage ""
   url "https://github.com/GreenGremlin/sub/archive/v0.1.1.tar.gz"
-  # sha256 "85cc828a96735bdafcf29eb6291ca91bac846579bcef7308536e0c875d6c81d7"
+  sha256 "ac387e05074e93095bb61ada9adf0f3d05d748e5893c93e4d88e2766a8f262dc"
 
   def install
     bin.install "sub.sh" => "sub"
