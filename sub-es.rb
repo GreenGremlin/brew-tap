@@ -1,4 +1,4 @@
-class Es < Formula
+class SubEs < Formula
   desc ""
   homepage ""
   url "https://github.com/GreenGremlin/es/archive/v0.1.0.tar.gz"
