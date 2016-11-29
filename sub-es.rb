@@ -8,10 +8,9 @@ class SubEs < Formula
 
   def install
     libexec.install Dir["*"]
-    es_command = `sub-mksub es #{libexec} > #{buildpath}/es`
-    es_command = `sub-mkcompletions es #{libexec} bash > #{buildpath}/es-completions-bash`
+    `sub-mksub es #{libexec} > #{buildpath}/es`
+    `sub-mkcompletions es #{libexec} bash > #{buildpath}/es-completions-bash`
     bin.install "#{buildpath}/es"
     bash_completion.install "#{buildpath}/es-completions-bash" => "sub-es-completions"
-    print es_command
   end
 end
