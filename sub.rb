@@ -1,7 +1,7 @@
 class Sub < Formula
   desc ""
   homepage ""
-  url "https://github.com/GreenGremlin/sub/archive/v0.1.10.tar.gz"
+  url "https://github.com/GreenGremlin/sub/archive/v0.1.11.tar.gz"
   head "https://github.com/GreenGremlin/sub.git"
   sha256 "bc9222bea53e777651b486a7131b4a81d0a70dff8a4cc7b5c6185f055a75d595"
 
